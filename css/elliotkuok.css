@@ -513,6 +513,7 @@ section#about{
 
 #about p {
     text-align: center;
+    font-family: "Open Sans";
 }
 
 /* Resume */
@@ -532,6 +533,10 @@ section#about{
 
 #resume hr {
     margin-left: 0px;
+}
+
+#resume .description {
+    font-family: "Open Sans";
 }
 
 #resume .rectangle p {
