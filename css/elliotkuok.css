@@ -464,6 +464,9 @@ footer h3 {
 @media(max-width: 860px) {
     #landing-page img{
         min-width: 860px;
+        position: relative;
+        left: 50%;
+        margin-left: -430px;
     }
 
 }
