@@ -49,9 +49,6 @@ h6 {
     font-family: 'BebasNeue', 'Open Sans', sans-serif;
     font-weight: bold;
     color: #000;
-    padding-bottom: 15px;
-    padding-left: 35px;
-    padding-right: 35px
 }
 
 br {
@@ -162,6 +159,7 @@ header p {
     padding-bottom: 0px;
     font-size: 8.25vw;
     text-align: center;
+    white-space: nowrap;
 }
 
 #landing-page hr {
@@ -461,5 +459,12 @@ footer h3 {
     #landing-page .tag {
         padding-bottom: 9%;
     }
+}
+
+@media(max-width: 860px) {
+    #landing-page img{
+        min-width: 860px;
+    }
+
 }
 
