@@ -195,7 +195,7 @@ header p {
    position: absolute;
    left: 25%;
    top: 20%;
-   padding: 30px;
+   padding: 3%;
    width: 50%;
    background-color: rgba(55, 170, 220, 0.7);
    border: 5px solid white;
@@ -446,7 +446,7 @@ footer h3 {
     #landing-page #digi-mark {
         position: absolute;
         right: 33%;
-        padding: 0px 10%;
+        padding: 0px 15%;
     }
 
     #landing-page #web-dev {
@@ -468,6 +468,28 @@ footer h3 {
         left: 50%;
         margin-left: -430px;
     }
+}
 
+@media(max-width: 700px){
+    #landing-page h1{
+        font-size: 57.75px;
+    }
+
+    #landing-page hr {
+        width: 193.5px;
+    }
+
+    #landing-page h3{
+        font-size: 17.5px;
+    }
+
+    #landing-page .tag {
+        width: 350px;
+        height: 228.5px;
+        position: relative;
+        left: 50%;
+        margin-left: -175px;
+        margin-top: -339px;
+    }
 }
 
