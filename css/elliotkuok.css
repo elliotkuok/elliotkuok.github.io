@@ -1,6 +1,18 @@
 @font-face {
     font-family: 'BebasNeue';
+    src: url(../fonts/bebasneue-regular.otf);
+}
+
+@font-face {
+    font-family: 'BebasNeue';
     src: url(../fonts/bebasneue-bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url(../fonts/bebasneue-light.otf);
+    font-weight: lighter;
 }
 
 body {
@@ -14,7 +26,6 @@ p {
     margin-left: 35px;
     margin-right: 35px;
     font-family: 'BebasNeue';
-    font-weight: 300;
 
 }
 
@@ -40,16 +51,11 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: 'BebasNeue', 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     color: #000;
     padding-bottom: 15px;
     padding-left: 35px;
     padding-right: 35px
-}
-
-.img-circle {
-    border-radius: 50%;
-    height: 225px;
 }
 
 header {
@@ -57,23 +63,10 @@ header {
     color: #fff;
 }
 
-header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-header img {
-    max-width: 100%;
-    height: auto;
-}
-
-header .intro-text .name {
-    display: block;
-    text-transform: uppercase;
-    font-family: 'BebasNeue', 'Open Sans', sans-serif;
+header p {
     font-size: 2em;
-    font-weight: 700;
 }
+
 
 
 /* hamburger icon */
@@ -113,10 +106,12 @@ header .intro-text .name {
 
 .navbar-brand {
     font-size: 1.5em;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a {
     font-size: 1.5em;
+    font-weight: bold;
 }
 
 .navbar-default {
@@ -289,11 +284,6 @@ footer h3 {
 br {
         line-height: 200%; 
 }
-
-header p {
-    font-size: 20px;
-}
-
 
 /* Stretch image to fit window */
 .img-responsive.img-stretch, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
