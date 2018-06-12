@@ -454,7 +454,7 @@ footer h3 {
     #landing-page #web-dev {
         position: absolute;
         left: 40%;
-        padding: 0px 80px;
+        padding: 0px 20%;
 
     }
 
@@ -463,8 +463,3 @@ footer h3 {
     }
 }
 
-@media(max-width: 991px) {
-    #landing-page h3 {
-
-    }
-}
