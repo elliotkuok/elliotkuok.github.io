@@ -55,14 +55,7 @@ br {
         line-height: 200%; 
 }
 
-section {
-    padding: 100px 0;
-}
 
-section h2 {
-    margin: 0;
-    font-size: 3em;
-}
 
 
 /* Navbar section */
@@ -143,10 +136,6 @@ section h2 {
 header {
     text-align: center;
     color: #fff;
-}
-
-header p {
-    font-size: 2em;
 }
 
 /* Stretch image to fit window */
@@ -471,6 +460,7 @@ footer h3 {
 }
 
 @media(max-width: 700px){
+    /* landing page section */
     #landing-page h1{
         font-size: 57.75px;
     }
@@ -491,5 +481,12 @@ footer h3 {
         margin-left: -175px;
         margin-top: -339px;
     }
+
+    /* about me section */
+
+    #about .container {
+        margin-top: 112px;
+    }
+
 }
 
