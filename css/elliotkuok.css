@@ -193,7 +193,8 @@ header {
 /*About section*/
 
 #dog {
-    width: 100%;
+    width: 90%;
+    padding-top: 30px;
 }
 section#about{
     padding: 0px;
@@ -201,7 +202,7 @@ section#about{
 
 #about h2 {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 #about p {
@@ -448,6 +449,20 @@ footer h3 {
     #landing-page .tag {
         padding-bottom: 9%;
     }
+
+    /* about me section */
+    #about h2 {
+        padding-top: 7%;
+    }
+}
+
+@media(max-width: 991px) {
+    #dog {
+        width: 40%;
+        margin: auto;
+        padding-top: 0px;
+    }
+
 }
 
 @media(max-width: 860px) {
@@ -483,7 +498,6 @@ footer h3 {
     }
 
     /* about me section */
-
     #about .container {
         margin-top: 112px;
     }
