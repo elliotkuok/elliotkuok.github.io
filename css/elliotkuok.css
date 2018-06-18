@@ -287,8 +287,8 @@ section#about{
     z-index: -2;
 }
 
-#resume .skills p {
-    padding-left: 90px;
+#resume .skills {
+    padding-left: 105px;
 }
 
 #resume .design-dev h4 {
@@ -309,6 +309,14 @@ section#about{
 
 .company {
     font-weight: normal;
+}
+
+#resume .container {
+    padding-bottom: 80px;
+}
+
+#stats {
+    margin-top: 20px;
 }
 
 /* Contact section */
