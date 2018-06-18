@@ -225,15 +225,23 @@ section#about{
     padding-left: 90px;
 }
 
+#resume #dates {
+    width: 25%;
+}
+
+.description p {
+    padding-top: 10px;
+}
+
+.description {
+    width: 75%;
+}
+
 #resume p {
     text-align: left;
     margin-left: 0px;
     margin-right: 82px;
 
-}
-
-.description p {
-    padding-top: 10px;
 }
 
 #resume hr {
@@ -275,8 +283,8 @@ section#about{
     height: 400px;
     background: #fff;
     position: absolute;
-    left: 59%;
-    z-index: 0;
+    left: 50%;
+    z-index: -2;
 }
 
 #resume .skills p {
