@@ -406,6 +406,7 @@ section#about{
 
 #contact h2 {
     color: #fff;
+    font-size: 8.25vw;
 }
 
 #contact p {
@@ -424,8 +425,7 @@ section#about{
 }
 
 #contact-button h3{
-    margin: 5px;
-    padding-top: 22px;
+    padding: 5px 30px;
 }
 
 #contact-button {
@@ -441,8 +441,9 @@ section#about{
 #contact .tag {
    float: left;
    position: absolute;
-   left: 37%;
-   top: 27%;
+   left: 25%;
+   top: 25%;
+   width: 50%;
    z-index: 1000;
    padding: 5px;
    color: #fff;
@@ -560,6 +561,10 @@ footer h3 {
     #about h2 {
         padding-top: 7%;
     }
+
+    #contact .tag {
+       top: 20%; 
+    }
 }
 
 @media(max-width: 991px) {
@@ -569,6 +574,8 @@ footer h3 {
         padding-top: 0px;
     }
 
+
+
 }
 
 @media(max-width: 860px) {
@@ -577,6 +584,22 @@ footer h3 {
         position: relative;
         left: 50%;
         margin-left: -430px;
+    }
+
+    /*contact section*/
+    #contact img {
+        min-width: 860px;
+        position: relative;
+        left: 50%;
+        margin-left: -430px;
+    }
+
+    #contact .tag {
+        width: 430px;
+        position: relative;
+        left: 50%;
+        margin-left: -220px;
+        margin-top: -290px;
     }
 }
 
@@ -607,6 +630,7 @@ footer h3 {
     #about .container {
         margin-top: 112px;
     }
+
 
 }
 
