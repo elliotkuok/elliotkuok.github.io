@@ -288,7 +288,7 @@ section#about{
 }
 
 #resume .skills {
-    padding-left: 105px;
+    padding-left: 53px;
 }
 
 #resume .design-dev h4 {
@@ -315,8 +315,57 @@ section#about{
     padding-bottom: 80px;
 }
 
+.parent {
+    position: relative;
+}
+
 #stats {
     margin-top: 20px;
+}
+
+#stats hr {
+    position: absolute;
+    top: 15px;
+    color: #fff;
+}
+
+#stats p {
+    margin-bottom: 30px;
+}
+
+#stats hr.skill-percent {
+    border-top: 3px solid;
+    top: 14px;
+}
+
+#stats hr.ms-word {
+    width: 100%;
+    color: #2E5FA0;
+}
+
+#stats hr.powerpoint {
+    width: 100%;
+    color: #f26522;
+}
+
+#stats hr.excel {
+    width: 70%;
+    color: #227248;
+}
+
+#stats hr.hubspot {
+    width: 60%;
+    color: #fff200;
+}
+
+#stats hr.raiser {
+    width: 80%;
+    color: #ed1c24;
+}
+
+#stats hr.wordpress {
+    width: 75%;
+    color: #630460;
 }
 
 /* Contact section */
