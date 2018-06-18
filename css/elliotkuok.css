@@ -461,6 +461,11 @@ footer h3 {
     color: #fff;
 }
 
+img.social {
+    width: 50px;
+    vertical-align: baseline;
+}
+
 .btn-outline {
     /* margin-top: 15px; */
     border: solid 2px #fff;
