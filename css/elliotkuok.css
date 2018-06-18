@@ -368,6 +368,36 @@ section#about{
     color: #630460;
 }
 
+#stats hr.photoshop {
+    width: 90%;
+    color: #7cc576;
+}
+
+#stats hr.illustrator {
+    width: 70%;
+    color: #ff00ff;
+}
+
+#stats hr.indesign {
+    width: 75%;
+    color: #f7941d;
+}
+
+#stats hr.htmlcss {
+    width: 80%;
+    color: #fff568;
+}
+
+#stats hr.javascript {
+    width: 60%;
+    color: #00a99d;
+}
+
+#stats hr.python {
+    width: 80%;
+    color: #de5252;
+}
+
 /* Contact section */
 #contact {
     background-color: #000;
