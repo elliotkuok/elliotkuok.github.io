@@ -219,6 +219,9 @@ section#about{
 #resume h4 {
     color: #fff;
     text-align: left;
+}
+
+#resume #work-exp {
     padding-left: 90px;
 }
 
@@ -226,22 +229,25 @@ section#about{
     text-align: left;
     margin-left: 0px;
     margin-right: 82px;
-    padding-left: 0;
+
+}
+
+.description p {
+    padding-top: 10px;
 }
 
 #resume hr {
     margin-left: 0px;
 }
 
-#resume .description {
-    font-family: "Open Sans";
-}
 
 #resume .rectangle p {
     margin-right: 20px;
     margin-left: 20px;
     padding-top: 10px;
     text-align: center;
+    font-family: "BebasNeue";
+    font-weight: bold;
 }
 
 #resume .row {
@@ -290,6 +296,11 @@ section#about{
 #resume h2 {
     text-transform: none;
     color: #fff;
+    margin-top: 80px;
+}
+
+.company {
+    font-weight: normal;
 }
 
 /* Contact section */
