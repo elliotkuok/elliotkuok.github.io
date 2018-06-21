@@ -536,17 +536,6 @@ footer .list-inline {
     outline: 0;
 }
 
-@media(max-width:767px) {
-    section {
-        padding: 75px 0;
-    }
-
-    section.first {
-        padding-top: 75px;
-    }
-}
-
-
 @media(max-width: 1199px) {
     /* landing page section */
     #landing-page #digi-mark {
