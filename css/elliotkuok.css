@@ -22,7 +22,6 @@ body {
 }
 
 p {
-    font-size: 16px;
     margin-left: 35px;
     margin-right: 35px;
     font-family: 'Sunflower', sans-serif;
@@ -221,7 +220,7 @@ section#about{
 }
 
 #resume #work-exp {
-    padding-left: 90px;
+    margin-left: 90px;
 }
 
 #resume #dates {
@@ -280,7 +279,7 @@ section#about{
 
 .vertical-line {
     width: 2px;
-    height: 400px;
+    height: 420px;
     background: #fff;
     position: absolute;
     left: 50%;
@@ -575,16 +574,42 @@ footer .list-inline {
     #contact .tag {
        top: 20%; 
     }
+
+    /*resume section */
+    .vertical-line {
+    height: 500px;
+    }
 }
 
 @media(max-width: 991px) {
+    /*about me section*/
     #dog {
         width: 40%;
         margin: auto;
         padding-top: 0px;
     }
 
+    /*resume section*/
+    #resume .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
+    #resume p {
+        margin-right: 0px;
+    }
+
+    .rectangle {
+        margin-left: 0px;
+    }
+
+    #resume #work-exp {
+        margin-left: 0px;
+    }
+
+    #resume .skills {
+        padding-left: 0px;
+    }
 
 }
 
