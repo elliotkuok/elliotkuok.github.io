@@ -669,12 +669,14 @@ footer .list-inline {
     }
 
     .vertical-line {
-        height: 200px;
+        height: 280px;
     }
 
     .rectangle {
         width: 70px;
         height: 55px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #resume .rectangle p {
@@ -683,13 +685,17 @@ footer .list-inline {
     }
 
     .company {
-    display: block;
-}
-}
+        display: block;
+    }
 
-@media(max-width: 578px){
-    .vertical-line {
-        height: 260px;
+    #resume .skills {
+        padding-left: 15px;
+    }
+
+    #resume .design-dev {
+        padding-right: 15px;
     }
 }
+
+
 
