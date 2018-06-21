@@ -272,7 +272,6 @@ section#about{
     background: #fff;
     color: #000;
     margin-left: 90px;
-    margin-bottom: 38px;
     z-index: 1000;
     position: relative;
 }
@@ -307,6 +306,7 @@ section#about{
 
 .company {
     font-weight: normal;
+    display: inline;
 }
 
 #resume .container {
@@ -566,7 +566,7 @@ footer .list-inline {
 
     /*resume section */
     .vertical-line {
-    height: 500px;
+    height: 530px;
     }
 }
 
@@ -597,7 +597,11 @@ footer .list-inline {
     }
 
     #resume .skills {
-        padding-left: 0px;
+        padding-left: 15px;
+    }
+
+    #resume .design-dev {
+        padding-right: 15px;
     }
 
 }
@@ -655,6 +659,37 @@ footer .list-inline {
         margin-top: 112px;
     }
 
+    /*resume section*/
+    .job-desc {
+        display: none;
+    }
 
+    .date {
+        display: none;
+    }
+
+    .vertical-line {
+        height: 200px;
+    }
+
+    .rectangle {
+        width: 70px;
+        height: 55px;
+    }
+
+    #resume .rectangle p {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .company {
+    display: block;
+}
+}
+
+@media(max-width: 578px){
+    .vertical-line {
+        height: 260px;
+    }
 }
 
