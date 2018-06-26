@@ -24,8 +24,8 @@ body {
 p {
     margin-left: 35px;
     margin-right: 35px;
-    font-family: 'Sunflower', sans-serif;
-
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 
 a,
@@ -255,6 +255,7 @@ section#about{
     font-family: "BebasNeue";
     font-weight: bold;
     color: #000;
+    font-size: 15px;
 }
 
 #resume .row {
