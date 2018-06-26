@@ -188,11 +188,6 @@ header {
 }
 
 /*About section*/
-
-#dog {
-    width: 90%;
-    padding-top: 30px;
-}
 section#about{
     padding: 0px;
 }
@@ -562,10 +557,10 @@ a.btn-social {
 
 @media(max-width: 991px) {
     /*about me section*/
-    #dog {
-        width: 40%;
-        margin: auto;
-        padding-top: 0px;
+    #about .img-responsive {
+        padding-top: 20px;
+        width: 130%;
+        max-width: none;
     }
 
     /*resume section*/
@@ -618,6 +613,13 @@ a.btn-social {
         left: 50%;
         margin-left: -220px;
         margin-top: -290px;
+    }
+}
+
+@media(max-width: 767px) {
+    #about .img-responsive {
+        width: 40%;
+        margin: auto;
     }
 }
 
