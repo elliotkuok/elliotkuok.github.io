@@ -454,21 +454,8 @@ footer {
     background-color: #000;
 }
 
-footer h4 {
-    margin-bottom: 5px;
-}
-
 footer .row {
     padding-top: 10px;
-}
-
-img.social {
-    width: 40px;
-    vertical-align: baseline;
-}
-
-footer .list-inline {
-    margin-bottom: 0px;
 }
 
 .btn-primary {
@@ -497,6 +484,28 @@ footer .list-inline {
 .btn.active {
     outline: 0;
 }
+
+.btn-social {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 100%;
+    font-size: 22px;
+}
+
+a.btn-social {
+    color: #000;
+}
+
+.btn-social:hover,
+.btn-social:active,
+.btn-social.active {
+    background-color: rgb(97, 184, 187);
+    border-color: rgb(97, 184, 187);
+}
+
 
 .scroll-top {
     z-index: 1049;
