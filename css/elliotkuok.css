@@ -83,10 +83,7 @@ br {
 }
 
 .navbar-nav>li>a {
-    padding-top: 19.5px;
-    padding-bottom: 19.5px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 22px 25px 0px;
 }
 
 .navbar {
@@ -97,6 +94,7 @@ br {
 .navbar-brand {
     font-size: 1.5em;
     font-weight: bold;
+    padding: 22px 15px 0px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -192,9 +190,9 @@ section#about{
     padding: 0px;
 }
 
-#about h2 {
+#about h1 {
     text-align: center;
-    padding-top: 15%;
+    padding-top: 20%;
     color: #000;
 }
 
@@ -202,11 +200,14 @@ section#about{
     text-align: center;
 }
 
+#about .img-responsive {
+    padding-top: 50px;
+}
+
 /* Resume section*/
 
 #resume {
     background-color: #000;
-
 }
 
 #resume h4 {
@@ -295,7 +296,7 @@ section#about{
     margin-bottom: 20px;
 }
 
-#resume h2 {
+#resume h1 {
     text-transform: none;
     margin-top: 80px;
 }
@@ -533,7 +534,6 @@ a.btn-social {
         position: absolute;
         left: 40%;
         padding: 0px 20%;
-
     }
 
     #landing-page .tag {
@@ -541,8 +541,8 @@ a.btn-social {
     }
 
     /* about me section */
-    #about h2 {
-        padding-top: 7%;
+    #about h1 {
+        padding-top: 10%;
     }
 
     #contact .tag {
@@ -559,8 +559,10 @@ a.btn-social {
     /*about me section*/
     #about .img-responsive {
         padding-top: 20px;
-        width: 130%;
+        width: 150%;
         max-width: none;
+        position: relative;
+        right: 70px;
     }
 
     /*resume section*/
@@ -620,6 +622,8 @@ a.btn-social {
     #about .img-responsive {
         width: 40%;
         margin: auto;
+        right: 0px;
+        padding-top: 0px;
     }
 }
 
