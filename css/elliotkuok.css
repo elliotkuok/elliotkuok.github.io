@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'BebasNeue';
     src: url(../fonts/bebasneue-regular.otf);
+    font-weight: normal;
 }
 
 @font-face {
@@ -11,8 +12,8 @@
 
 @font-face {
     font-family: 'BebasNeue';
-    src: url(../fonts/bebasneue-light.otf);
-    font-weight: lighter;
+    src: url(../fonts/bebasneue-book.otf);
+    font-weight: 300;
 }
 
 body {
@@ -97,15 +98,8 @@ br {
     padding: 22px 15px 0px;
 }
 
-.navbar-default .navbar-nav>li>a {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: right;
-}
-
 .navbar-default {
     background-color: #000;
-    border-color: transparent;
     padding-bottom: 0px;
     padding-top: 0px;
 
@@ -121,7 +115,9 @@ br {
 }
 
 .navbar .navbar-nav {
-    letter-spacing: 1px;
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: 'BebasNeue', sans-serif;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -162,7 +158,7 @@ header {
 }
 
 #landing-page h3 {
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 2.5vw;
     margin: 0px;
 }
@@ -199,6 +195,7 @@ section#about{
 #about h1 {
     text-align: center;
     padding-top: 20%;
+    padding-bottom: 20px;
     color: #000;
 }
 
@@ -569,6 +566,10 @@ a.btn-social {
         max-width: none;
         position: relative;
         right: 70px;
+    }
+
+    #about h1 {
+        padding-bottom: 5px;
     }
 
     /*resume section*/
