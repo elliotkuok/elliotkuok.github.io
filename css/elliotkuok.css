@@ -26,7 +26,7 @@ p {
     margin-left: 35px;
     margin-right: 35px;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 1em;
 }
 
 a,
@@ -254,7 +254,7 @@ section#about{
     font-family: "BebasNeue";
     font-weight: bold;
     color: #000;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 #resume .row {
@@ -545,7 +545,7 @@ a.btn-social {
 
     /* about me section */
     #about h1 {
-        padding-top: 10%;
+        padding-top: 15%;
     }
 
     #contact .tag {
@@ -570,6 +570,7 @@ a.btn-social {
 
     #about h1 {
         padding-bottom: 5px;
+        padding-top: 20%;
     }
 
     /*resume section*/
@@ -631,6 +632,10 @@ a.btn-social {
         margin: auto;
         right: 0px;
         padding-top: 0px;
+    }
+
+    #about h1 {
+        padding-top: 8%;
     }
 }
 
