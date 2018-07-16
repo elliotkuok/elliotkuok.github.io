@@ -169,6 +169,7 @@ header {
     margin: auto;
     text-align:center;
     position:relative;
+    overflow: hidden;
 }
 
 #landing-page #elliot {
