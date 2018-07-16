@@ -219,9 +219,9 @@ section#about{
     text-align: left;
 }
 
-#resume #work-exp {
+/*#resume #work-exp {
     margin-left: 90px;
-}
+}*/
 
 #resume #dates {
     width: 25%;
@@ -253,7 +253,7 @@ section#about{
     padding-top: 10px;
     text-align: center;
     font-family: "BebasNeue";
-    font-weight: bold;
+    font-weight: normal;
     color: #000;
     font-size: 16px;
 }
@@ -305,8 +305,12 @@ section#about{
     margin-top: 80px;
 }
 
-.company {
+#resume h4 {
     font-weight: normal;
+}
+
+#resume .company {
+    font-weight: 300;
     display: inline;
 }
 
@@ -587,11 +591,11 @@ a.btn-social {
     .rectangle {
         margin-left: 0px;
     }
-
+/*
     #resume #work-exp {
         margin-left: 0px;
     }
-
+*/
     #resume .skills {
         padding-left: 15px;
     }
@@ -672,25 +676,15 @@ a.btn-social {
         display: none;
     }
 
-    .date {
-        display: none;
-    }
 
     .vertical-line {
-        height: 280px;
-    }
-
-    .rectangle {
-        width: 70px;
-        height: 55px;
-        margin-left: auto;
-        margin-right: auto;
+        height: 322px;
     }
 
     #resume .rectangle p {
         margin-right: 0px;
         margin-left: 0px;
-        padding-top: 7px;
+        padding-top: 10px;
     }
 
     .company {
@@ -704,7 +698,44 @@ a.btn-social {
     #resume .design-dev {
         padding-right: 15px;
     }
+
+    #resume .company {
+        display: block
+    }
+
+    .rectangle {
+        top: -15px;
+    }
+
+    #work-exp {
+        top: -15px;
+        margin-top: 25px;
+    }
+
 }
 
+@media(max-width: 500px) {
+    .rectangle {
+        width: 100%;
+        min-width: 55px;
+    }
+}
+
+@media(max-width: 374px) {
+    #resume h4 {
+        font-size: 16px;
+    }
+
+    #resume p {
+        font-size: 11px;
+    }
+
+}
+
+@media(min-width: 992px){
+    #work-exp {
+        left: 90px;
+    }
+}
 
 
