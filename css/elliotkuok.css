@@ -142,10 +142,6 @@ header {
     width: 100%;
 }
 
-.img-stretch {
-    overflow: hidden;
-}
-
 #landing-page h1 {
     padding-bottom: 0px;
     font-size: 8.25vw;
