@@ -169,6 +169,7 @@ header {
     margin: auto;
     text-align:center;
     position:relative;
+    overflow: hidden;
 }
 
 #landing-page #elliot {
@@ -655,16 +656,15 @@ a.btn-social {
 
     #landing-page .tag {
         width: 350px;
-        height: 228.5px;
+        height: 228px;
         position: relative;
         left: 50%;
         margin-left: -175px;
-        margin-top: -339px;
+        margin-top: -435px;
     }
 
-    /* about me section */
-    #about .container {
-        margin-top: 112px;
+    #landing-page .wrap {
+        height: 424px;
     }
 
     /*resume section*/
@@ -690,6 +690,7 @@ a.btn-social {
     #resume .rectangle p {
         margin-right: 0px;
         margin-left: 0px;
+        padding-top: 7px;
     }
 
     .company {
