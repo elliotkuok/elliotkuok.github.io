@@ -639,8 +639,13 @@ a.btn-social {
         padding-top: 0px;
     }
 
+    #landing-page .tag {
+        top: 25%;
+    }
+
     #about h1 {
-        padding-top: 8%;
+        padding-top: 0px;
+        margin-top: 80px;
     }
 }
 
@@ -716,7 +721,7 @@ a.btn-social {
 
 @media(max-width: 500px) {
     .rectangle {
-        width: 100%;
+        width: 80px;
         min-width: 55px;
     }
 }
@@ -730,6 +735,19 @@ a.btn-social {
         font-size: 11px;
     }
 
+}
+
+@media(max-width: 430px){
+    .job-column {
+        left: 20px;
+    }
+}
+
+@media(max-width: 370px){
+    #landing-page .tag {
+        width: 268px;
+        margin-left: -134px;
+    }
 }
 
 @media(min-width: 992px){
