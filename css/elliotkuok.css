@@ -339,6 +339,14 @@ section#about{
 #stats hr.skill-percent {
     border-top: 3px solid;
     top: 14px;
+    animation: loading .7s linear;
+}
+
+
+@keyframes loading {
+    0% { 
+        width: 0%; 
+    }
 }
 
 #stats hr.ms-word {
