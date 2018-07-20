@@ -339,7 +339,7 @@ section#about{
 #stats hr.skill-percent {
     border-top: 3px solid;
     top: 14px;
-    animation: loading .7s linear;
+    animation: loading 1.5s linear;
 }
 
 

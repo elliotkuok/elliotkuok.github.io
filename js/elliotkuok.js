@@ -18,3 +18,10 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('.skill-percent',{
+  origin: 'left',
+  delay: 100,
+  opacity: 0,
+});
