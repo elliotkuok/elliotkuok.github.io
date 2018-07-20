@@ -339,7 +339,7 @@ section#about{
 #stats hr.skill-percent {
     border-top: 3px solid;
     top: 14px;
-    animation: loading 1.5s linear;
+    opacity: 0;
 }
 
 
@@ -349,62 +349,62 @@ section#about{
     }
 }
 
-#stats hr.ms-word {
+#stats hr#ms-word {
     width: 100%;
     color: #2E5FA0;
 }
 
-#stats hr.powerpoint {
+#stats hr#powerpoint {
     width: 100%;
     color: #f26522;
 }
 
-#stats hr.excel {
+#stats hr#excel {
     width: 70%;
     color: #227248;
 }
 
-#stats hr.hubspot {
+#stats hr#hubspot {
     width: 60%;
     color: #fff200;
 }
 
-#stats hr.raiser {
+#stats hr#raiser {
     width: 80%;
     color: #ed1c24;
 }
 
-#stats hr.wordpress {
+#stats hr#wordpress {
     width: 75%;
     color: #630460;
 }
 
-#stats hr.photoshop {
+#stats hr#photoshop {
     width: 90%;
     color: #7cc576;
 }
 
-#stats hr.illustrator {
+#stats hr#illustrator {
     width: 70%;
     color: #ff00ff;
 }
 
-#stats hr.indesign {
+#stats hr#indesign {
     width: 75%;
     color: #f7941d;
 }
 
-#stats hr.htmlcss {
+#stats hr#htmlcss {
     width: 80%;
     color: #fff568;
 }
 
-#stats hr.javascript {
+#stats hr#javascript {
     width: 60%;
     color: #00a99d;
 }
 
-#stats hr.python {
+#stats hr#python {
     width: 80%;
     color: #de5252;
 }
