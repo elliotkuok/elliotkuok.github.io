@@ -349,6 +349,12 @@ section#about{
     }
 }
 
+@keyframes reset {
+    100% {
+        width: 0%;
+    }
+}
+
 #stats hr#ms-word {
     width: 100%;
     color: #2E5FA0;
