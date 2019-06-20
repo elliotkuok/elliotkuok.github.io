@@ -279,7 +279,7 @@ section#about{
 
 .vertical-line {
     width: 2px;
-    height: 420px;
+    height: 435px;
     background: #fff;
     position: absolute;
     left: 50%;
@@ -303,6 +303,7 @@ section#about{
 #resume h1 {
     text-transform: none;
     margin-top: 80px;
+    margin-bottom: 30px;
 }
 
 #resume h4 {
@@ -312,6 +313,10 @@ section#about{
 #resume .company {
     font-weight: 300;
     display: inline;
+}
+
+.job-desc {
+     padding-top: 10px;
 }
 
 #resume .container {
